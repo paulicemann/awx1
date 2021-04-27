@@ -1,6 +1,9 @@
 ---
 - hosts: localhost
+
   tasks:
+
     - name: Printing returned values - was execution successfull
       debug:
         msg: "Simple yaml"
+        
