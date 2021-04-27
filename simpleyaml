@@ -1,9 +1,13 @@
 ---
-- hosts: localhost
+- hosts: all
+  gather_facts: no
+
+- import_playbook: play1.yml
+- import_playbook: play2.yml  
+- import_playbook: play2.yml
 
   tasks:
 
     - name: Printing returned values - was execution successfull
       debug:
         msg: "Simple yaml"
-        
