@@ -1,6 +1,13 @@
 ---
 - hosts: all
 
+  vars:
+    var1: defaultvar1
+    var2: defaultvar2
+    varlist:
+      - varlist1
+      - varlist2
+
   tasks:
 
     - name: Printing returned values - was execution successfull
