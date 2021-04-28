@@ -13,3 +13,12 @@
     - name: Printing returned values - was execution successfull
       debug:
         msg: "Simple yaml"
+    
+    - debug:
+        msg: "Var1: {{var1}}"
+            
+    - debug:
+        msg: "Var1: {{var2}}"
+            
+    - debug:
+        msg: "Var1: {{varlist}}"
