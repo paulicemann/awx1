@@ -26,7 +26,19 @@
         msg: "Var1: {{var1}}"
             
     - debug:
-        msg: "Var1: {{var2}}"
+        msg: "Var2: {{var2}}"
             
     - debug:
-        msg: "Var1: {{varlist}}"
+        msg: "Varlist0: {{varlist}}"
+                    
+    - debug:
+        msg: "Var3: {{var3}}"
+                    
+    - debug:
+        msg: "Var4: {{var4}}"
+            
+    - debug:
+        msg: "Varlist1: {{varlist1}}"
+            
+    - debug:
+        msg: "Varlist2: {{varlist2}}"
