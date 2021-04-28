@@ -2,11 +2,19 @@
 - hosts: all
 
   vars:
-    var1: defaultvar1
-    var2: defaultvar2
+    var1: defaultvar1incode
+    var2: defaultvar2incode
+    var3: defaultvar3incode
+    var4: defaultvar4incode
     varlist:
-      - varlist1
-      - varlist2
+      - varlist0v1incode
+      - varlist0v2incode
+    varlist1:
+      - varlist1v1incode
+      - varlist1v2incode
+    varlist2:
+      - varlist2v1incode
+      - varlist2v2incode
 
   tasks:
 
